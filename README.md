@@ -1,3 +1,5 @@
+Modified by believelabs for use with wordpress.
+
 [Twitter Bootstrap](http://twitter.github.com/bootstrap) [![Build Status](https://secure.travis-ci.org/twitter/bootstrap.png)](http://travis-ci.org/twitter/bootstrap)
 =================
 
@@ -11,7 +13,6 @@ Quick start
 -----------
 
 Clone the repo, `git clone git@github.com:twitter/bootstrap.git`, or [download the latest release](https://github.com/twitter/bootstrap/zipball/master).
-
 
 
 Versioning
