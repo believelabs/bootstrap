@@ -169,7 +169,7 @@
   }
   [class*="span"],
   .row-fluid [class*="span"] {
-    display: block;
+    display: inline-block;
     float: none;
     width: auto;
     margin-left: 0;
@@ -683,11 +683,18 @@
   body {
     padding-top: 0;
   }
-  .navbar-fixed-top {
+  .navbar-fixed-top,
+  .navbar-fixed-bottom {
     position: static;
+  }
+  .navbar-fixed-top {
     margin-bottom: 18px;
   }
-  .navbar-fixed-top .navbar-inner {
+  .navbar-fixed-bottom {
+    margin-top: 18px;
+  }
+  .navbar-fixed-top .navbar-inner,
+  .navbar-fixed-bottom .navbar-inner {
     padding: 5px;
   }
   .navbar .container {
