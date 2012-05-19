@@ -639,3 +639,33 @@
   }
 
 }
+
+/*
+Additional Mixins
+Added by Andrew Martin
+[andrew@believelabs.com]
+*/
+
+// Button Style
+.button-style(@bgposition: -0px -0px, @width: 0px, @height:0px) {
+  background:transparent url('../images/layout/global/master-sprite.png') no-repeat scroll @bgposition;
+  width:@width;
+  height:@height;
+  text-indent:-9999px;
+  display:block;
+  cursor:pointer;
+  border: 0 none;
+}
+
+.add_space(@amount:15px) {
+  padding:@amount 0 0 0;
+  clear:both;
+}
+
+.spacer {
+  .add_space();
+}
+
+.spacer10 {
+  .add_space(10px);
+}
